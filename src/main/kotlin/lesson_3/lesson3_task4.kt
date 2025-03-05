@@ -5,11 +5,11 @@ fun main() {
     var where = "E4"
     var moveNumber = 1
 
-    println("Откуда: $fromWhere, куда: $where, № хода: $moveNumber")
+    println("$fromWhere-$where; $moveNumber")
 
     fromWhere = "D2"
     where = "D${2 + 1}"//вперед на одну клетку
     moveNumber++
 
-    println("Откуда: $fromWhere, куда: $where, № хода: $moveNumber")
+    println("$fromWhere-$where; $moveNumber")
 }
