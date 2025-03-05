@@ -7,6 +7,6 @@ fun main() {
     val bufCrystalOre = (Buf * crystalOre).toInt()
     val bufIronOre = (Buf * ironOre).toInt()
 
-    println("Koличество бонусной кристаллической руды: " + bufCrystalOre)
-    println("Koличество бонусной железной руды: " + bufIronOre)
+    println("Koличество бонусной кристаллической руды: $bufCrystalOre")
+    println("Koличество бонусной железной руды: $bufIronOre")
 }
